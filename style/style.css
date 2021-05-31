@@ -57,6 +57,11 @@ main {
     position: relative;
     box-shadow: 1px 1px black;
 }
+.memory:hover {
+    background-image: url(../img/noun_air_balloon_3134741.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 .baloon {
     background-image: url(../img/noun_air_balloon_3134741.png);
     background-size: contain;
