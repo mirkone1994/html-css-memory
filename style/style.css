@@ -71,6 +71,9 @@ div[class^="memory"] {
     position: relative;
     box-shadow: 1px 1px black;
 }
+div[class^="memory"]:hover {
+    cursor: pointer;
+}
 div[class^="text"] {
     visibility: hidden;
 }
