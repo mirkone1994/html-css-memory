@@ -44,7 +44,7 @@ main {
     height: 200px;
     margin: 30px 0;
 }
-.memory {
+div[class^="memory"] {
     width: calc(25% - 10px);
     height: 200px;
     background-color: #fff;
@@ -57,26 +57,100 @@ main {
     position: relative;
     box-shadow: 1px 1px black;
 }
-.memory:hover {
+.memoryb:hover {
     background-image: url(../img/noun_air_balloon_3134741.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
-.baloon {
-    background-image: url(../img/noun_air_balloon_3134741.png);
+.memoryb:hover .textb{
+        position: absolute;
+        bottom: 5px;
+        left: 30px;
+        color: #e60f82;
+        font-size: 20px;
+        font-weight: bolder;
+        background-color: rgba(0, 0, 0, 0);
+        visibility: visible;
+}
+div[class^="text"] {
+    visibility: hidden;
+}
+.memoryt:hover {
+    background-image: url(../img/noun_Tractor_3134797.png);
     background-size: contain;
     background-repeat: no-repeat;
-    text-align: center;
 }
-.text {
-    position: absolute;
-    bottom: 5px;
-    left: 30px;
-    color: #e60f82;
-    font-size: 20px;
-    font-weight: bolder;
-    background-color: rgba(0, 0, 0, 0);
+.memoryt:hover .textt{
+        position: absolute;
+        bottom: 5px;
+        left: 30px;
+        color: #e67a1b;
+        font-size: 20px;
+        font-weight: bolder;
+        background-color: rgba(0, 0, 0, 0);
+        visibility: visible;
 }
+.memorybi:hover {
+    background-image: url(../img/noun_Bicycle_3134821.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.memorybi:hover .textbi{
+        position: absolute;
+        bottom: 5px;
+        left: 30px;
+        color: #1be62c;
+        font-size: 20px;
+        font-weight: bolder;
+        background-color: rgba(0, 0, 0, 0);
+        visibility: visible;
+}
+.memoryc:hover {
+    background-image: url(../img/noun_Cruise_Ship_3134824.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.memoryc:hover .textc{
+        position: absolute;
+        bottom: 5px;
+        left: 30px;
+        color: #1b39e6;
+        font-size: 20px;
+        font-weight: bolder;
+        background-color: rgba(0, 0, 0, 0);
+        visibility: visible;
+}
+.memorytr:hover {
+    background-image: url(../img/noun_Tram_3134750.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.memorytr:hover .texttr{
+        position: absolute;
+        bottom: 5px;
+        left: 30px;
+        color: #e61b3d;
+        font-size: 20px;
+        font-weight: bolder;
+        background-color: rgba(0, 0, 0, 0);
+        visibility: visible;
+}
+.memorys:hover {
+    background-image: url(../img/noun_Submarine_3134738.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.memorys:hover .texts{
+        position: absolute;
+        bottom: 5px;
+        left: 30px;
+        color: #e6e31b;
+        font-size: 20px;
+        font-weight: bolder;
+        background-color: rgba(0, 0, 0, 0);
+        visibility: visible;
+}
+
 /*header*/
 footer {
     text-align: center;
