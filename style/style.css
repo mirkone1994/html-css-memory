@@ -57,6 +57,9 @@ div[class^="memory"] {
     position: relative;
     box-shadow: 1px 1px black;
 }
+div[class^="text"] {
+    visibility: hidden;
+}
 .memoryb:hover {
     background-image: url(../img/noun_air_balloon_3134741.png);
     background-size: contain;
@@ -71,9 +74,6 @@ div[class^="memory"] {
         font-weight: bolder;
         background-color: rgba(0, 0, 0, 0);
         visibility: visible;
-}
-div[class^="text"] {
-    visibility: hidden;
 }
 .memoryt:hover {
     background-image: url(../img/noun_Tractor_3134797.png);
@@ -150,7 +150,6 @@ div[class^="text"] {
         background-color: rgba(0, 0, 0, 0);
         visibility: visible;
 }
-
 /*header*/
 footer {
     text-align: center;
